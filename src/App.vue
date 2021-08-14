@@ -39,21 +39,24 @@
 
     <v-main>
       <!-- <HelloWorld/> -->
-      <Landing/>
+      <!-- <Landing/>
+      <UpdateState/> -->
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld';
-import Landing from './components/Landing';
+// import Landing from './components/Landing';
+// import UpdateState from './components/UpdateState'
 
 export default {
   name: 'App',
 
-  components: {
-    Landing,
-  },
+  // components: {
+  //   Landing, UpdateState
+  // },
 
   data: () => ({
     //
